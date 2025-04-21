@@ -7,6 +7,11 @@ public class Task6 {
         int year = scan.nextInt();
         if (year % 4 == 0 && (year % 400 == 0 || year % 100 != 0)) {
             System.out.println("Високосный год");
-        } else System.out.println("Обычный год");
+            daysInYear = 366;
+        } else {
+            System.out.println("Обычный год");
+            daysInYear = 365;
+        }
+        System.out.println("В году " + year + " дней - " + daysInYear);
     }
 }
