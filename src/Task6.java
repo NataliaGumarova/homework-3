@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Task6 {
     public static void main(String[] args) {
+        System.out.println("Задание № 6");
         Scanner scan = new Scanner(System.in);
         int daysInYear = 0;
         System.out.println("Введите год = ");
@@ -12,6 +13,6 @@ public class Task6 {
             System.out.println("Обычный год");
             daysInYear = 365;
         }
-        System.out.println("В году " + year + " дней - " + daysInYear);
+        System.out.println("В " + year + " году " + daysInYear + " дней");
     }
 }
