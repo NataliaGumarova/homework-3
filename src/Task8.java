@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Task8 {
     public static void main(String[] args) {
+        System.out.println("Задание № 8");
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите первое число");
         int x = scan.nextInt();
