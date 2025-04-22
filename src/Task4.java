@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
+        System.out.println("Задание № 4");
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите координаты точки");
         System.out.println("x = ");
