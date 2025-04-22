@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
+        System.out.println("Задание № 2");
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите время (от 0 до 24)");
         int time = scan.nextInt();
